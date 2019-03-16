@@ -1,4 +1,4 @@
-# DNAtoMidi
+# 🧬 DNA to Midi 🎶
 Convert DNA sequences to Midi sequences: Input a DNA sequence in a txt file and it'll output a midi file so you can listen to the sound of DNA 🎶
 
 <p align="center"> 
@@ -7,7 +7,7 @@ Convert DNA sequences to Midi sequences: Input a DNA sequence in a txt file and 
 
 ### How to run
 
-You need to have the DNA sequence that you want to use in a txt file, eg. DNA_sequence.txt and the run the command:
+You need to have the DNA sequence (ATTAAACATA...) that you want to use in a txt file, eg. DNA_sequence.txt and the run the command:
 
 ```
 python3 DNAtomidi.py --sequence_file DNA_sequence.txt
@@ -19,7 +19,9 @@ To see all the other options:
 python3 DNAtomidi.py --help
 ```
 
-### Some theory
+That's it, you can play the generated midi file your favourite music software -Ableton, Midi player- or output it to an analog synthesizer.   
+
+### Some theory 🧬
 
 The DNA is made of 4 letters A, G, T and C representing the four DNA nucleotides. Three letters together are called [codons](https://en.wikipedia.org/wiki/Codon_(disambiguation)) and can encode one amino acid which are the building blocks of proteins. Although 64 3-letters combination are possible, there are only 20 amino acids found in nature; the same amino-acid may be coded by different condons. The image above shows the 20 amino acids and their encoding codons.
 
