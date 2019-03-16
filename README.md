@@ -27,8 +27,11 @@ In a simplify model, some codons code the start/stop instructions for the transc
 
 ### Further implementations
 
+
+- [ ] \(Optional) Add different mapping running modes (current and straight 0->20 notes)
+- [ ] \(Optional) Add the possibility of inputing the sequence in line 
+- [ ] \(Optional) Allow for RNA input (replace U by T)
 - [ ] \(Optional) Better notesInKey list
-- [ ] \(Optional) Add different mapping modes (current and straight 0->20 notes )
 - [ ] \(Optional) Implement start/stop condons
 - [ ] \(Optional) Allow fastq as an input format and use quality value to map velocity
 
