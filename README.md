@@ -1,5 +1,6 @@
 # DNAtoMidi
-Convert DNA sequences to Midi sequences
+Convert DNA sequences to Midi sequences: Input a DNA sequence in a txt file and it'll output a midi file so you can listen to your DNA. 
+
 <p align="center"> 
 <img src="CodonstoAminoacides.svg" width="600">
 </p>
@@ -23,6 +24,8 @@ python3 DNAtomidi.py --help
 The DNA is made of 4 letters A, G, T and C representing the four DNA nucleotides. Three letters together are called [codons](https://en.wikipedia.org/wiki/Codon_(disambiguation)) and can encode one amino acid which are the building blocks of proteins. Although 64 3-letters combination are possible, there are only 20 amino acids found in nature; the same amino-acid may be coded by different condons. The image above shows the 20 amino acids and their encoding codons.
 
 In a simplify model, some codons code the start/stop instructions for the transcription process.
+
+Disclamer: ⚠️ mappings may not be isomorphic ⚠️
 
 
 ### Further implementations
