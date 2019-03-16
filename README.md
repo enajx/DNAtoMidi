@@ -19,7 +19,7 @@ To see all the other options:
 python3 DNAtomidi.py --help
 ```
 
-That's it, you can play the generated midi file your favourite music software -Ableton, Midi player- or output it to an analog synthesizer.   
+That's it, you can play the generated midi file with your favourite music software -Ableton, Midi player, ...- or output it to an analog synthesizer.   
 
 ### Some theory 🧬
 
