@@ -18,9 +18,7 @@ def formatDNAFile(rawFile):
 
 def textToPitches(dnaText, startingPitch):
     degrees = []
-    speeds = []
-    # notesInKey = [0,2,4,5,7,9,11,12,14,16,17,19,21,23,24,26]
-    # notesInKey = [0,2,4,5,7,9,10,19,12,14,17,8,21,16,11,24] #increased key pattern
+    speeds = []p
     notesInKey = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
 
@@ -191,12 +189,8 @@ def connectNotes(pitch1, difference):
          x = random.choice([invertFourt1, invertFourt2, blank])
 
 
-     ##fifteen, double octave
-
      return x
 
-##still needs a lot of work
-##should append the new ones in the right spots
 def findDifference(pitches, speeds, startingPitch):
     lastPitch = 0
     for i, pitch in enumerate(pitches):
@@ -264,7 +258,7 @@ def start():
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
-    description='''Example of run: python --sequence_File my_dna.txt . ''',
+    description='''Example of run: python --sequence_File DNA_sequence.txt  ''',
     epilog="""That's all.""")
 
     # Parse input options
