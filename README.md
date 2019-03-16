@@ -1,5 +1,5 @@
 # DNAtoMidi
-Convert DNA sequences to Midi sequences: Input a DNA sequence in a txt file and it'll output a midi file so you can listen to your DNA. 
+Convert DNA sequences to Midi sequences: Input a DNA sequence in a txt file and it'll output a midi file so you can listen to the sound of DNA 🎶
 
 <p align="center"> 
 <img src="CodonstoAminoacides.svg" width="600">
